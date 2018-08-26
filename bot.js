@@ -1,16 +1,3 @@
-/**
- * Original code nexu-dev, https://github.com/nexu-dev/discord.js-music
- * Tweeked by Demise.
- */
-
-// const YoutubeDL = require('youtube-dl');
-// const ytdl = require('ytdl-core');
-
-const stream = require('youtube-audio-stream');
-const search = require('youtube-search');
-const Discord = require('discord.js');
-const EventEmitter = require('events');
-
 class Emitter extends EventEmitter {}
 const emitter = new Emitter();
 
